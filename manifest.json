@@ -1,0 +1,16 @@
+{
+  "name": "0x3de1.app",
+  "short_name": "0x3de1",
+  "theme_color": "#2196f3",
+  "background_color": "#ffffff",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/assets/img/app-icon/icon-76@2x.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ]
+}
