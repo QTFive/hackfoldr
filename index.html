@@ -180,12 +180,17 @@ var compile_json = function(rows){
       link_icon = "facetime video";
     } else if(link_url.match(/^.*.www.ptt.cc\/bbs\//)) {
       link_icon = "chat outline";
-    } else if(link_url.match(/^.*.disp.cc\//)) {
+    } else if(link_url.match(/^.*.lihkg.com\/category\//)) {
+      link_icon = "chat outline";
+        } else if(link_url.match(/^.*.disp.cc\//)) {
       link_icon = "chat outline";
     } else if(link_url.match(/^.*.www.google.com\/moderator\//)) {
       link_icon = "chat outline";
     } else if(link_url.match(/^.*.www.loomio.org\//)) {
       link_icon = "chat outline";
+    } else if(link_url.match(/^.*.hackmd.io\//)) {
+      link_icon = "exchange";
+    }
     } else if(link_url.match(/^.*.hack.g0v.tw\//)) {
       link_icon = "exchange";
       //link_url = link_url.split("/")[1].toString();
