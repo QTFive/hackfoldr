@@ -88,7 +88,7 @@ var compile_json = function(rows){
   // #toc menu items are at root level by default. if depth == 1, they will be in level 1 submenu, which is wrapped inside an semantic ui accordion
   var depth = 0
 
-  var link_template_source ='<a href="{{url}}" target="{{target}}" id="{{id}}" class="{{type}} item" rel="nofollow"><i class="icon {{icon}}" data-content="{{subject}}" rel="nofollow"></i>{{subject}}</a>';
+  var link_template_source ='<a href="{{url}}" target="{{target}}" id="{{id}}" class="{{type}} item" rel="nofollow"><i class="icon {{icon}}" data-content="{{subject}}"></i>{{subject}}</a>';
   //var link_template_source ='<a href="{{url}}" target="{{target}}" class="{{type}} item"><i class="icon {{icon}}"></i>{{subject}}</a>';
   var link_template = Handlebars.compile(link_template_source);
 
